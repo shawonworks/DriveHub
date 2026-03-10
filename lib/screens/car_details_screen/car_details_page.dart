@@ -46,11 +46,6 @@ class CarDetailsPage extends StatelessWidget {
                       : SizedBox.shrink(),
 
                   Buttons(controller: controller),
-
-                  // About(controller: controller),
-                  // Photos(),
-                  // ReviewScreen(),
-                  // Map(controller: controller),
                   switch (controller.currentIndex) {
                     0 => About(controller: controller),
                     1 => Photos(),
