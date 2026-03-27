@@ -42,15 +42,7 @@ class OnboardScreen extends StatelessWidget {
               ),
               Gap(height: 20),
 
-              // AppButton(
-              //   onTap: () {
-              //     Get.offAllNamed(AppRoutes.signInPage);
-              //   },
-              //   title: "Sign In",
-              //   radius: 30,
-              //   titleColor: ConstColor.white,
-              // ),
-              // Gap(height: 20),
+    
               AppButton(
                 onTap: () async {
                   await AppStorage().setRole("user");
