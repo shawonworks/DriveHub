@@ -243,22 +243,6 @@ class Map extends StatelessWidget {
                 ),
                 clipBehavior: Clip.hardEdge,
                 child: Image.asset('assets/images/car.png', width: double.infinity, height: double.infinity, fit: BoxFit.cover),
-
-                //  Obx(
-                //   () => GoogleMap(
-                //     onMapCreated: controller.onMapCreated,
-                //     initialCameraPosition: CameraPosition(
-                //       target: controller.currentPosition.value,
-                //       zoom: 15,
-                //     ),
-                //     markers: controller.markers.toSet(),
-                //     zoomControlsEnabled: true,
-                //     mapToolbarEnabled: false,
-                //     myLocationButtonEnabled: false,
-                //     myLocationEnabled: true,
-                //     mapType: MapType.normal,
-                //   ),
-                // ),
               ),
             ),
           ],
