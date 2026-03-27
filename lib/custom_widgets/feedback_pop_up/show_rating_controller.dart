@@ -11,27 +11,7 @@ class FeedbackController extends GetxController {
     rating.value = value;
   }
 
-  // void submitFeedback(RescheduleController singleBookingController) {
-  //   if (feedbackController.text.isNotEmpty) {
-  //     final feedback = feedbackController.text;
-  //     LocalStorage.myRoll != 'nunny'
-  //         ? ratingToUserID = singleBookingController.singleBookingById?.parentId.id ?? ''
-  //         : ratingToUserID = singleBookingController.singleBookingById?.nannyId.id ?? '';
-  //     bookingID = singleBookingController.singleBookingById?.id ?? '';
 
-  //     // TODO: send data to API
-  //     sendFeedBackRepository(
-  //       bookingId: bookingID,
-  //       toUserId: ratingToUserID,
-  //       ratingValue: rating.value.toInt(),
-  //       feedback: feedback,
-  //     );
-
-  //     Get.back(); // close popup
-  //   } else {
-  //     Get.snackbar('Message', 'Please Leave a review for us');
-  //   }
-  // }
 
   void cancleButton() {
     feedbackController.clear();
