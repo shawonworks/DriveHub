@@ -55,7 +55,4 @@ class AppRoutes {
   static const bookingDetailsCheckoutPage = '/bookingDetailsCheckoutPage';
   static const hostCheckOutPage = '/hostCheckOutPage';
   static const hostCarDetailsPage = '/hostCarDetailsPage';
-
-
-
 }
