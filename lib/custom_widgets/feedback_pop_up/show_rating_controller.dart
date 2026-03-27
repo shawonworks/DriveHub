@@ -11,8 +11,6 @@ class FeedbackController extends GetxController {
     rating.value = value;
   }
 
-
-
   void cancleButton() {
     feedbackController.clear();
     rating.value = 3;
