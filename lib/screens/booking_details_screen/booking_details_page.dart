@@ -323,22 +323,6 @@ class Map extends StatelessWidget {
                 ),
                 clipBehavior: Clip.hardEdge,
                 child: AppImage(height: 200, width: double.infinity, path: "assets/temp/location_map.png"),
-
-                //  Obx(
-                //   () => GoogleMap(
-                //     onMapCreated: controller.onMapCreated,
-                //     initialCameraPosition: CameraPosition(
-                //       target: controller.currentPosition.value,
-                //       zoom: 15,
-                //     ),
-                //     markers: controller.markers.toSet(),
-                //     zoomControlsEnabled: true,
-                //     mapToolbarEnabled: false,
-                //     myLocationButtonEnabled: false,
-                //     myLocationEnabled: true,
-                //     mapType: MapType.normal,
-                //   ),
-                // ),
               ),
             ),
           ],
