@@ -43,6 +43,7 @@ class _CustomTabBarState extends State<CustomTabBar> {
     );
   }
 
+  /////// Build category section
   Widget buildCategory(String text, int index) {
     bool isSelected = selectedIndex == index;
 
