@@ -30,6 +30,8 @@ class HostNavBar extends StatelessWidget {
   }
 }
 
+
+///// Search engine section in navbar
 class SearchEngine extends StatelessWidget {
   const SearchEngine({super.key});
 
